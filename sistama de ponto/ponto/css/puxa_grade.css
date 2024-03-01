@@ -1,0 +1,770 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(224, 223, 223);
+}
+header{
+    position: relative;
+    background-color: rgb(255, 115, 0);
+    height: 100px;
+    width: auto;
+    margin-left: auto;
+    left: -10px;
+    margin-right: -40px;
+    right: 10px;
+    margin-top: -10px;
+}
+.logo{
+    height: 90px;
+    margin-left: 20px;
+}
+.dev{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+/*registros*/
+.conteiner{
+    background-color: #fff;    
+    height: 300px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    margin-top: 10px;
+
+
+}
+
+.imgdata{
+    height: 33px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+.data{
+    display: flex;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #000000;
+
+}
+
+.totaldia{
+    margin-top: 20px;
+    margin-left: 400px;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+}
+.hrttdia{
+    color: #ff7300;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 560px;
+    position: absolute;
+}
+.hrinicial{
+    border-top: 2px solid rgb(255, 123, 0);
+    width: 660px;
+    margin-top: 55px;
+    position: absolute;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.relogioic{
+    height: 30px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.registros{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.entrada{
+    display: flex;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 35px;
+    color: #ff7300;
+    margin-top: 100px;
+    font-size: 17px;
+}
+.hrentrada{
+    display: flex;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 35px;
+    margin-top: 120px;
+    font-size: 20px;
+}
+.saida{
+    position: absolute;
+    margin-right: auto;
+    margin-left: 175px;
+    color: #ff7300;
+    margin-top: 100px;
+    font-size: 17px;
+}
+.hrsaida{
+    display: flex;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 175px;
+    margin-top: 120px;
+    font-size: 20px;
+
+}
+.manha{
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: 45px;
+    text-align: center;
+    top: 145px;
+    font-size: 13px;
+    color: #7c7c7c;
+}
+.entrada2{
+    position: absolute;
+    margin-right: auto;
+    margin-left: 35px;
+    color: #ff7300;
+    margin-top: 140px;
+    font-size: 17px;
+}
+.hrretorno{
+    position: absolute;
+    margin-right: auto;
+    margin-left: 35px;
+    margin-top: 160px;
+    font-size: 20px;
+
+}
+.saida2{
+    position: absolute;
+    margin-right: auto;
+    margin-left: 175px;
+    color: #ff7300;
+    margin-top: 140px;
+    font-size: 17px;
+}
+
+.hrsaida2{
+    position: absolute;
+    margin-right: auto;
+    margin-left: 175px;
+    margin-top: 160px;
+    font-size: 20px;
+}
+
+.tarde{
+    text-align: left;
+    margin-top: 195px;
+    font-size: 15px;
+    margin-left: 45px;
+    color: #7c7c7c;
+    font-size: 13px;
+}
+.dataft{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-left: 25px;
+    color: #565656;
+    font-size: 17px;
+}
+.hrfinal{
+    border-top: 2px solid rgb(255, 123, 0);
+    width: 660px;
+}
+/*registros final*/
+/*calculo extra*/
+.mais{
+    height: 30px;
+    position: absolute;
+    margin-left: 385px;
+    margin-top: -165px;
+
+}
+.calculo{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 420px;
+    margin-top: -160px;
+    
+}
+.atraso{
+    width: 30px;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: -120px;
+}
+.atrasoTT{
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 460px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+.atrasototal{
+    position: absolute;
+    font-size: 13px;
+    color: #7c7c7c;
+    margin-left: 460px;
+    margin-top: -100px;
+}
+.atrasomanhasol{
+    height: 20px;
+    position: absolute;
+    margin-left: 405px;
+    margin-top: -86px;
+}
+.atrasomanha{
+    margin-left: 430px;
+    margin-top: -85px;
+    position: absolute;
+    font-size: 15px;
+}
+.atrasotardelua{
+    height: 15px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -85px;
+}
+.atrasotarde{
+    margin-left: 520px;
+    margin-top: -85px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.iconextra{
+    height: 30px;
+    position: absolute;
+    margin-left: 420px;
+    margin-right: auto;
+    margin-top: -30px;
+}
+.extraT{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 460px;
+    margin-right: auto;
+    margin-top: -30px;
+    color: #000000;
+}
+.hrextra{
+    position: absolute;
+    font-size: 13px;
+    color: #7c7c7c;
+    margin-left: 460px;
+    margin-top: -10px;
+}
+
+.extramanhasol{
+    height: 20px;
+    position: absolute;
+    margin-left: 405px;
+    margin-top: 4px;
+}
+.extramanhaa{
+    margin-left: 430px;
+    margin-top: 5px;
+    position: absolute;
+    font-size: 15px;
+}
+.extratardelua{
+    height: 15px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+.extratarde{
+    margin-left: 520px;
+    margin-top: 5px;
+    position: absolute;
+    font-size: 15px;
+}
+.divide_calculo{
+    position: absolute;
+    border-top: 1px solid rgb(255, 123, 0);
+    width: 260px;
+    margin-top: -50px;
+    margin-left: 370px;
+}
+
+/*calculo extra final*/
+.atrasoM{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 300px;    
+    margin-top: -51px;
+    color: #000000;
+
+}
+.atrasoT{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 300px;
+    margin-top: -15px;
+    color: #000000;
+
+}
+
+.filtro{
+    margin-bottom: 4px;
+}
+.filtro2{
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    background-color:rgb(224, 223, 223);
+    border: none;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: right;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.botaofiltro{
+    width: 60px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #00ff91;
+    color: #fff;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.filtrar{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    right: -240px;
+    top: -78px;
+    margin-bottom: -70px;
+}
+.info{
+    background-color: #fff;
+    height: 200px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: -40px;
+
+}
+.user{
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.nome{
+    font-size: 60px;
+    margin-left: 170px;
+    margin-top: -130px;
+}
+.empresa{
+    margin-left: 180px;
+    margin-top: -40px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.nr{
+    margin-left: 180px;
+    margin-top: -5px;
+}
+.voltar{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-left: -50px;
+    margin-right: auto;
+    margin-top: -50px;
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+/* arrumar */
+.relogioimg1{
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+.totalhr{/* ok */
+    text-align: left;
+    margin-left: 160px;
+    margin-right: auto;
+    font-size: 50px;
+    margin-top: -65px;
+    color: #000000;
+}
+.totalmes{
+    margin-left: 160px;
+    font-size: 25px;
+    margin-top: -55px;
+    color: #4a4a4a;
+}
+.totalmessub{
+    margin-left: 160px;
+    font-size: 10px;
+    margin-top: -30px;
+    color: #000000;
+}
+.atrasado{
+    height: 50px;
+    margin-left: 80px;
+}
+.totalhrAT{
+    text-align: left;
+    margin-left: 160px;
+    margin-right: auto;
+    font-size: 45px;
+    margin-top: -55px;
+    top: auto;
+    color: #000000;
+}
+.atrasotitulo{
+    margin-left: 160px;
+    font-size: 25px;
+    margin-top: -55px;
+    color: #4a4a4a;
+}
+.atrasotitulosub{
+    margin-left: 160px;
+    font-size: 10px;
+    margin-top: -30px;
+    color: #000000;
+}
+.tatmanha{
+
+    margin-left: 130px;
+    margin-right: auto;
+    font-size: 23px;
+    margin-top: -45px;
+    top: auto;
+    color: #000000;
+    margin-bottom: -10px;
+}
+.tattarde{
+    margin-left: 280px;
+    margin-right: auto;
+    font-size: 23px;
+    margin-top: -35px;
+    top: auto;
+    color: #000000;
+}
+.sol{
+    height: 45px;
+    margin-left: 80px;
+    margin-top: 0px;
+
+}
+.lua{
+    height: 30px;
+    margin-left: 240px;
+    margin-top: -25px;
+}
+.tatmanhasub{
+position: absolute;
+font-size: 12px;
+margin-left: 135px;
+color: #3e3e3e;
+}
+.tattardesub{
+    position: absolute;
+    font-size: 12px;
+    margin-left: 285px;
+    margin-top: -23px;
+    color: #3e3e3e;
+}
+/*grafico*/
+.verde{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    background-color: #00ff91;
+    margin-left: 410px;
+    margin-top: 20px;
+}
+.hrm{
+    margin-left: 440px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.laranja{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    background-color: #ff7300;
+    margin-left: 410px;
+    margin-top: 10px;
+}
+.hrmt{
+    margin-left: 440px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.verdeclaro{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    background-color: #7ddd00;
+    margin-left: 550px;
+    margin-top: -68px;
+}
+.hrex{
+    margin-left: 580px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.roxo{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    background-color: #9e00ac;
+    margin-left: 550px;
+    margin-top: 5px;
+}
+.hrexn{
+    margin-left: 580px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.azul{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    background-color: #0009b9;
+    margin-left: 410px;
+    margin-top: 5px;
+}
+.hrexf{
+    margin-left: 440px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+/*grafico*/
+.divisao{
+    margin-top: 50px;
+    width: 650px;
+
+}
+.titulo2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #454545;
+}
+.relogiomais{
+    height: 110px;
+    margin-left: 110px;
+    
+}
+.totalhrEX{
+    text-align: left;
+    margin-left: 260px;
+    margin-right: auto;
+    font-size: 65px;
+    margin-top: -120px;
+    top: auto;
+    color: #000000;
+}
+.horaextran{
+    text-align: center;
+    font-size: 35px;
+    margin-top: -80px;
+    margin-left: 130px;
+    color: #454545;
+}
+
+.horaextransub{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -45px;
+    margin-left: 15px;
+}
+.sol2{
+    height: 45px;
+    margin-left: 165px;
+}
+
+.texmanha{
+    text-align: auto;
+    margin-left: 220px;
+    margin-right: auto;
+    font-size: 23px;
+    margin-top: -45px;
+    top: auto;
+    color: #000000;
+    margin-bottom: -10px;
+}
+.lua2{
+    height: 30px;
+    margin-left: 355px;
+    margin-top: -30px;
+}
+.texnoite{
+    text-align: auto;
+    margin-left: 395px;
+    margin-right: auto;
+    font-size: 23px;
+    margin-top: -35px;
+    top: auto;
+    color: #000000;
+}
+.extramanha{
+    position: absolute;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-left: 220px;
+    margin-top: 5px;
+}
+.extranoite{
+    position: absolute;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-left: 397px;
+    margin-top: -28px;
+}
+.subhrx{
+    text-align: center;
+    font-size: 16px;
+
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+/* arrumar */
+.relogiolua{
+    height: 65px;
+    margin-left: 120px;
+}
+
+.exmanha{
+    text-align: auto;
+    margin-left: 190px;
+    margin-right: auto;
+    font-size: 35px;
+    margin-top: -65px;
+    top: auto;
+    color: #000000;
+    margin-bottom: -10px;
+}
+.fimsemana{
+    height: 50px;
+    margin-left: 360px;
+    margin-top: -30px;
+}
+.exnoite{
+    text-align: auto;
+    margin-left: 420px;
+    margin-right: auto;
+    font-size: 35px;
+    margin-top: -55px;
+    top: auto;
+    color: #000000;
+}
+.extranoturno{
+    position: absolute;
+    font-size: 20px;
+    color: #4a4a4a;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+.extrafim{
+    position: absolute;
+    font-size: 20px;
+    color: #4a4a4a;
+    margin-left: 420px;
+    margin-top: -40px;
+}
+
+/* arrumar */
+
+.conteiner3{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 930px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.dash{
+    margin-top: 30px;
+    margin-left: 75px;
+    height: 65px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    margin-top: -60px;
+    margin-left: 40px;
+    color: #262626;
+}
+.subtitulo{
+    text-align: center;
+    margin-top: -50px;
+    color: #3e3e3e;
+}
+.concordo{
+    text-align: center;
+    color: #7c7c7c;
+}
+.descordo{
+    text-align: center;
+    color: #7c7c7c;
+}
+.sim{
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: -35px;
+    background-color: #00ff91;
+}
+.nao{
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: -10px;
+    display: flex;
+    margin-bottom: -38px;
+}
+.verifica{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 370px;
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+input[type=checkbox]:hover {
+    transform: scale(2.0);
+}

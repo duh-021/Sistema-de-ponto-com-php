@@ -1,0 +1,138 @@
+body{
+    background-color:rgb(202, 202, 202);}
+a{
+    text-decoration: none;
+}
+.grade{
+    position: relative;
+    font-size: 18px;
+    top: 20px;
+    margin-left: 250px;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(169, 169, 169);
+
+}
+.nome{
+    position: absolute;
+    margin-left: 180px;
+    margin-right: auto;
+    margin-top: -120px;
+    font-size: 40px
+}
+.empresa{
+    position: absolute;
+    margin-left: 180px;
+    margin-right: auto;
+    margin-top: -50px;
+    font-size: 25px
+}
+.nr{
+    position: absolute;
+    margin-left: 530px;
+    margin-right: auto;
+    margin-top: -150px;
+    font-size: 25px;
+    color: rgb(206, 206, 206);
+}
+.logo{
+    width: 580px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: -160px;
+    
+}
+.relogio{
+    position: relative;
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: -40px;
+    margin-bottom: 10px;
+}
+.data{
+    position: relative;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: -60px;
+    margin-bottom: 10px;
+    margin-bottom: -50px;
+
+}
+.voltar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-left: -60px;
+    margin-right: auto;
+    margin-top: -90px;
+    top: 100px;
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);    
+    font-weight: bold;
+    color: rgb(255, 255, 255);    
+    font-size: 19px;
+    text-align: center;
+}
+.registrar{
+    width: 300px;
+    height: 80px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 150px;
+    margin-right: auto;
+    cursor: pointer;
+    background-color: rgb(0, 255, 132);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+.conteiner{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    top: 200px;
+
+}
+.foto{
+    width: 120px;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+.dev{
+    font-size: 14px;
+    margin-top: 60px;
+    margin-left: auto;
+    font-weight: bold;
+}
+h6{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -350px;
+    margin-right: auto;
+    margin-top: 280px;
+    margin-bottom: -380px;
+    font-size: 10px;
+    font-family: Trebuchet MS, sans-serif;
+    color: black;
+    text-align: center;
+    
+}

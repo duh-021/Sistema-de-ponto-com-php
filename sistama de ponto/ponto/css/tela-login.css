@@ -1,0 +1,290 @@
+
+body{
+    background-color:rgb(202, 202, 202);
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: auto;
+        margin-top: 155px;
+        margin-bottom: -350px;
+        font-size: 45px;
+        font-family: Trebuchet MS, sans-serif;
+        color: cornsilk;
+    }
+    .logo{
+        width: 580px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+        margin-bottom: -200px;
+        
+    }
+    .dev{
+        font-size: 14px;
+        margin-top: -1090px;
+        margin-left: auto;
+        font-weight: bold;
+    }
+    
+    
+    h3{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 110px;
+        margin-right: auto;
+        margin-top: -20px;
+        margin-bottom: -60px;
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+       
+        cursor: pointer;
+    }
+    
+    h3:hover{
+        color: #a00000;
+    }
+    h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -5px;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 60px;
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        color: cornsilk;
+    }
+    h5{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -360px;
+        margin-right: auto;
+        margin-top: 300px;
+        margin-bottom: -200px;
+        font-size: 45px;
+        font-family: Trebuchet MS, sans-serif;
+        color: black;
+      
+    }
+    
+    text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -360px;
+        margin-right: auto;
+        margin-top: 210px;
+        margin-bottom: -210px;
+        font-size: 15px;
+        font-family: Trebuchet MS, sans-serif;
+        color: black;
+    }
+    
+    h6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -350px;
+        margin-right: auto;
+        margin-top: 280px;
+        margin-bottom: -380px;
+        font-size: 10px;
+        font-family: Trebuchet MS, sans-serif;
+        color: black;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    .vejamais{
+    
+        display: flex;
+        width: 155px;
+        height: 50px;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #00fca5;
+        border:  none;
+        left: -180px;
+        top: 420px;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 15px;
+        color: cornsilk;
+        
+    
+    }
+    .vejamais:hover{
+        background-color: #ff5100;
+        opacity: 1;
+    
+    }
+    
+    .iconegeral img{
+    display: flex;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;
+    left: -125px;
+    top: -35px;
+    
+    }
+    .iconegeral{
+    
+        margin-top: 410px;
+        margin-left: 300px;
+        
+    }
+    .iconegeral input{
+        margin-top: -40px;
+    }
+    .iconegeral button{
+        margin-top: -40px;
+    }
+    
+    .icone1{
+    
+        width: 25px;
+        height: 25px;
+        display: flex;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        
+    
+    }
+    .icone2{
+        width: 25px;
+        height: 25px;
+        display: flex;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .icone3{
+    position: relative;
+        left: 230px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        opacity: 1;
+    
+    }
+    
+    .icone3:hover{
+        opacity: 0.9;
+    }
+    
+    
+    .conteiner {
+    
+        
+        width: 700px;
+        height: 400px;
+        
+        background-image: linear-gradient(to left, #ff6600 52%, #e6e5ee 30%);
+        margin-top: -290px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1100px;
+        border-radius: 8px;
+        
+    }
+    
+    .usuario{
+        position: relative;
+        display: flex;
+        margin-top:  300px;
+        margin-bottom: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 30px;
+        border:  none;
+        border-radius: 8px;
+        background-color: aliceblue;
+    
+    }
+    .usuario:hover{
+        
+        background-color: #dcc6ff;
+        outline: 0;
+        border: 0 none;
+        box-shadow: 0 0 0 0;
+    }
+    .senha{
+        position: relative;
+        display: flex;
+        margin-bottom: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 30px;
+        border:  none;
+        border-radius: 8px;
+        background-color: aliceblue;
+        
+    }
+    .senha:hover{
+        background-color: #dcc6ff;
+        opacity: 5.90;
+        outline: 0;
+        border: 0 none;
+        box-shadow: 0 0 0 0;
+    }
+    
+    button{
+        position: relative;
+        display: flex;
+        width: 90px;
+        height: 30px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #00fca5;
+        left: -60px;
+        border:  none;
+    }
+    button:hover{
+        background-color: #e2e2e2;
+        opacity: 5.90;
+        outline: 0;
+        border: 0 none;
+        box-shadow: 0 0 0 0;
+        cursor: pointer;
+    }
+    ::placeholder{
+        color: black;
+        position: absolute;
+        margin-left: 5px;
+        opacity: 0.5;
+        font-family:Trebuchet MS, sans-serif;
+        font-size: 13px;
+    
+    }
+    
